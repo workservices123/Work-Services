@@ -1,14 +1,10 @@
 import React from 'react'
-import RegisterCard from '../../ui/RegisterCard/RegisterCard'
+import RegisterCard from '../Layouts/RegisterCard/RegisterCard'
 
-
-export const Home = () => {
+export const Register = () => {
   return (
     <div className='Home'>
       <RegisterCard />
     </div>
   )
 }
-
-
-
