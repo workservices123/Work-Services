@@ -7,11 +7,9 @@ export const HeaderHome = () => {
   return (
     <section className='Header'>
       <div id='contenedorHeader'>
-
         <ContenedorLogo />
         <ContenedorBuscador />
         <NavHeader />
-        
       </div>
     </section>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 import { Anclas } from './Anclas'
 
 export const NavHeader = () => {
-  return (
+return (
     <div id='NavHeader'>
 
         <div id="containerIcons">
@@ -13,7 +13,7 @@ export const NavHeader = () => {
             work_history
             </span>
         </button>
-        
+
         {/* Notificaciones */}
         <button id='buttonNav'>
             <span class="material-symbols-outlined" id='iconHeader'>
@@ -38,33 +38,13 @@ export const NavHeader = () => {
         </div>
 
         <div id='TextIcons'>
-
-            <Anclas
-                estilos="Ancla" 
-                enlace="https://www.google.com/" zz
-                textoAncla="Historial"
-            />
-
-            <Anclas
-                estilos="Ancla" 
-                enlace="https://www.google.com/" zz
-                textoAncla="Notificaciones"
-            />
-
-            <Anclas
-                estilos="Ancla" 
-                enlace="https://www.google.com/" zz
-                textoAncla="Favoritos"
-            />
-
-            <Anclas
-                estilos="Ancla" 
-                enlace="https://www.google.com/" zz
-                textoAncla="Registro"
-            />
-
+            <Anclas estilos="Ancla" textoAncla="Home" enlace="/" />
+            <Anclas estilos="Ancla" textoAncla="Historial"  enlace="/historial" />
+            <Anclas estilos="Ancla" textoAncla="Notificaciones"  enlace="/notificaciones" />
+            <Anclas estilos="Ancla" textoAncla="Favoritos"  enlace="/favoritos" />
+            <Anclas estilos="Ancla" textoAncla="Registro"  enlace="/registro" />
         </div>
 
     </div>
-  )
+)
 }

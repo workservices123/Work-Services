@@ -6,7 +6,7 @@ export const Principal = () => {
   return (
     <section className='Principal'>
       <MenuLateral />
-        <ContenidoCentral />
+      <ContenidoCentral />
     </section>
   )
 }
