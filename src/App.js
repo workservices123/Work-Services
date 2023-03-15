@@ -1,12 +1,14 @@
 // import { Home } from "./Components/Pages/Home";
-import {Register} from "./Components/Pages/Register/Register"
+// import { Register } from "./Components/Pages/Home";
+import { Profile } from "./Components/Pages/Profile/Profile";
 // import {Login} from '../src/Components/Pages/Login/Login'
 
 function App() {
   return (
     // <Home/>
-    <Register />
+    // <Register />
     // <Login />
+    <Profile/>
   );
 }
 

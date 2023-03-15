@@ -5,7 +5,7 @@ import { MenuLateral } from '../MenuLateral/MenuLateral'
 export const Principal = () => {
   return (
     <section className='Principal'>
-      <MenuLateral />
+        <MenuLateral />
         <ContenidoCentral />
     </section>
   )

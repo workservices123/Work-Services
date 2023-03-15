@@ -82,13 +82,22 @@
   flex-direction: column;
 }
 
-#containerIcons{
+#containers{
   width: 100%;
-  height: 60%;
+  height: 70%;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   background: transparent;
+}
+
+#logos{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
 #TextIcons{
@@ -226,3 +235,97 @@
   margin: 1rem;
 }
 
+/* Perfil */
+
+#ProfileMain{
+  width: 100%;
+  height: 84%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ProfileLeft{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background: #e4e4e4;
+}
+
+#UserProfileUp{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  font-size: 35px;
+}
+
+#imgUser{
+  width: 10rem;
+  height: 10rem;
+  border: 0.8rem white solid;
+  border-radius: 50%;
+  background-image: url(./img/User.png);
+  background-size: cover;
+}
+
+#UserProfileDown{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#anchorsInfo{
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.AnInfo{
+  width: 10rem;
+  height: 3rem;
+  background: #f9fafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+#ProfileRight{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  background: #f3f3f3;
+}
+
+.AnOptions{
+  width: 70%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  background: #cdcdcd;
+}

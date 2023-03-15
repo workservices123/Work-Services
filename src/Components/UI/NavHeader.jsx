@@ -1,67 +1,80 @@
 import React from 'react'
+import { Profile } from '../Pages/Profile/Profile'
 import { Anclas } from './Anclas'
 
 export const NavHeader = () => {
   return (
     <div id='NavHeader'>
 
-        <div id="containerIcons">
+        <div id="containers">
+            
+            <div id='logos'>
+                {/* Historial de trabajos */}
+                <Anclas
+                    estilos="Ancla" 
+                    enlace="https://www.google.com/"
+                    textoAncla={<span class="material-symbols-outlined" id='iconHeader'>
+                        work_history
+                    </span>}
+                />
 
-            {/* Historial de trabajos */}
-        <button id='buttonNav'>
-            <span class="material-symbols-outlined" id='iconHeader'>
-            work_history
-            </span>
-        </button>
-        
-        {/* Notificaciones */}
-        <button id='buttonNav'>
-            <span class="material-symbols-outlined" id='iconHeader'>
-            notifications
-            </span>
-        </button>
+                <Anclas
+                    estilos="Ancla" 
+                    enlace="https://www.google.com/"
+                    textoAncla="Historial"
+                />
+            </div>
 
-        {/* Favoritos */}
-        <button id='buttonNav'>
-        <span class="material-symbols-outlined" id='iconHeader'>
-            favorite
-            </span>
-        </button>
+            <div id='logos'>
+                {/* Notificaciones */}
+                <Anclas
+                    estilos="Ancla" 
+                    enlace="https://www.google.com/"
+                    textoAncla={<span class="material-symbols-outlined" id='iconHeader'>
+                        notifications
+                    </span>}
+                />
 
-        {/* Usuario */}
-        <button id='buttonNav'>
-            <span class="material-symbols-outlined" id='iconHeader'>
-            account_circle
-            </span>
-        </button>
+                <Anclas
+                    estilos="Ancla" 
+                    enlace="https://www.google.com/"
+                    textoAncla="Notificaciones"
+                />
+            </div>
 
-        </div>
+            <div id='logos'>
+                {/* Favoritos */}
+                <Anclas
+                    estilos="Ancla" 
+                    enlace="https://www.google.com/"
+                    textoAncla={<span class="material-symbols-outlined" id='iconHeader'>
+                        favorite
+                    </span>}
+                />
 
-        <div id='TextIcons'>
+                <Anclas
+                    estilos="Ancla" 
+                    enlace="https://www.google.com/"
+                    textoAncla="Favoritos"
+                />
+            </div>
 
-            <Anclas
-                estilos="Ancla" 
-                enlace="https://www.google.com/" zz
-                textoAncla="Historial"
-            />
+            <div id='logos'>
+                {/* Usuario */}
+                <Anclas
+                    estilos="Ancla" 
+                    enlace="Profile"
+                    textoAncla={<span class="material-symbols-outlined" id='iconHeader'>
+                        account_circle
+                    </span>}
+                />
 
-            <Anclas
-                estilos="Ancla" 
-                enlace="https://www.google.com/" zz
-                textoAncla="Notificaciones"
-            />
-
-            <Anclas
-                estilos="Ancla" 
-                enlace="https://www.google.com/" zz
-                textoAncla="Favoritos"
-            />
-
-            <Anclas
-                estilos="Ancla" 
-                enlace="https://www.google.com/" zz
-                textoAncla="Registro"
-            />
+                <Anclas
+                    estilos="Ancla" 
+                    enlace="https://www.google.com/"
+                    textoAncla="Registro"
+                />
+            </div>
 
         </div>
 
