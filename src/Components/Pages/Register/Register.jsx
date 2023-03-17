@@ -1,8 +1,8 @@
 import React from 'react'
-import RegisterCard from '../../ui/RegisterCard/RegisterCard'
+import RegisterCard from '../../UI/RegisterCard/RegisterCard'
 
 
-export const Home = () => {
+export const Register = () => {
   return (
     <div className='Home'>
       <RegisterCard />

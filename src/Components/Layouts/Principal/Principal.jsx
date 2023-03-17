@@ -5,7 +5,9 @@ import { MenuLateral } from '../MenuLateral/MenuLateral'
 export const Principal = () => {
   return (
     <section className='Principal'>
-        <MenuLateral />
+    <div className='containMenuLateral'>
+      <MenuLateral />
+    </div>
         <ContenidoCentral />
     </section>
   )

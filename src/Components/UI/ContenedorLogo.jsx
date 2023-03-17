@@ -1,10 +1,13 @@
 import React from 'react'
 import { Logo } from './Logo'
+import { Anclas } from '../UI/Anclas'
 
 export const ContenedorLogo = () => {
   return (
-    <div id='ContenedorLogo'>
-        <Logo />
-    </div>
+    <Anclas
+      estilos="ContenedorLogo"
+      textoAncla={<Logo />}
+      root="/"
+    />
   )
 }

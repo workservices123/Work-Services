@@ -6,13 +6,13 @@ import { NavHeader } from '../../UI/NavHeader'
 export const HeaderHome = () => {
   return (
     <section className='Header'>
+    <div className='containHeader'>
       <div id='contenedorHeader'>
-
-        <ContenedorLogo />
-        <ContenedorBuscador />
-        <NavHeader />
-        
-      </div>
+          <ContenedorLogo />
+          <ContenedorBuscador />
+          <NavHeader />
+        </div>
+    </div>
     </section>
   )
 }

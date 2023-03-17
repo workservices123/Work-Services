@@ -1,9 +1,9 @@
 import React from 'react'
 import ButtonLogin from '../../UI/ButtonLogin/ButtonLogin'
 import TitleRegister from '../../UI/TitleRegister/TitleRegister'
-import InputLastName from '../InputLastName/InputLastName'
-import InputName from '../InputName/InputName'
-import InputPassword from '../InputPassword/inputPassword'
+import InputLastName from '../../UI/InputLastName/InputLastName'
+import InputName from '../../UI/InputName/InputName'
+import InputPassword from '../../UI/InputPassword/inputPassword'
 
 const LoginCard = () => {
   return (

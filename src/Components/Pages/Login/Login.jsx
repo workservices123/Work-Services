@@ -2,12 +2,10 @@ import React from 'react'
 import LoginCard from '../../Layouts/LoginCard/LoginCard'
 
 
-const Login = () => {
+export const Login = () => {
   return (
     <div className='Login'>
       <LoginCard />
     </div>
   )
 }
-
-export default Login

@@ -17,7 +17,7 @@ export const MenuLateral = () => {
 
                 <Anclas
                     estilos="Ancla" 
-                    enlace="https://www.google.com/" zz
+                    enlace="https://www.google.com/" 
                     textoAncla="1"
                 />
 

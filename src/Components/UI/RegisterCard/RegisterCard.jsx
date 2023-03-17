@@ -7,8 +7,6 @@ import InputName from '../InputName/InputName'
 import InputPassword from '../InputPassword/inputPassword'
 import TitleLogin from '../TitleLogin/TitleLogin'
 
-
-
 const RegisterCard = () => {
   return (
     <div className='containerPrincipal'>

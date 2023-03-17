@@ -1,5 +1,4 @@
 import React from 'react'
-import { Profile } from '../Pages/Profile/Profile'
 import { Anclas } from './Anclas'
 
 export const NavHeader = () => {
@@ -12,15 +11,15 @@ export const NavHeader = () => {
                 {/* Historial de trabajos */}
                 <Anclas
                     estilos="Ancla" 
-                    enlace="https://www.google.com/"
-                    textoAncla={<span class="material-symbols-outlined" id='iconHeader'>
+                    root="/historialTrabajos"
+                    textoAncla={<span className="material-symbols-outlined" id='iconHeader'>
                         work_history
                     </span>}
                 />
 
                 <Anclas
-                    estilos="Ancla" 
-                    enlace="https://www.google.com/"
+                    estilos="Ancla"
+                    root="/historialTrabajos"
                     textoAncla="Historial"
                 />
             </div>
@@ -28,16 +27,16 @@ export const NavHeader = () => {
             <div id='logos'>
                 {/* Notificaciones */}
                 <Anclas
-                    estilos="Ancla" 
-                    enlace="https://www.google.com/"
-                    textoAncla={<span class="material-symbols-outlined" id='iconHeader'>
+                    estilos="Ancla"
+                    root="/notificaciones"
+                    textoAncla={<span className="material-symbols-outlined" id='iconHeader'>
                         notifications
                     </span>}
                 />
 
                 <Anclas
-                    estilos="Ancla" 
-                    enlace="https://www.google.com/"
+                    estilos="Ancla"
+                    root="/notificaciones"
                     textoAncla="Notificaciones"
                 />
             </div>
@@ -45,16 +44,16 @@ export const NavHeader = () => {
             <div id='logos'>
                 {/* Favoritos */}
                 <Anclas
-                    estilos="Ancla" 
-                    enlace="https://www.google.com/"
-                    textoAncla={<span class="material-symbols-outlined" id='iconHeader'>
+                    estilos="Ancla"
+                    root="/favoritos"
+                    textoAncla={<span className="material-symbols-outlined" id='iconHeader'>
                         favorite
                     </span>}
                 />
 
                 <Anclas
-                    estilos="Ancla" 
-                    enlace="https://www.google.com/"
+                    estilos="Ancla"
+                    root="/favoritos"
                     textoAncla="Favoritos"
                 />
             </div>
@@ -62,17 +61,17 @@ export const NavHeader = () => {
             <div id='logos'>
                 {/* Usuario */}
                 <Anclas
-                    estilos="Ancla" 
-                    enlace="Profile"
-                    textoAncla={<span class="material-symbols-outlined" id='iconHeader'>
+                    estilos="Ancla"
+                    root="/profile"
+                    textoAncla={<span className="material-symbols-outlined" id='iconHeader'>
                         account_circle
                     </span>}
                 />
 
                 <Anclas
-                    estilos="Ancla" 
-                    enlace="https://www.google.com/"
-                    textoAncla="Registro"
+                    estilos="Ancla"
+                    root="/profile"
+                    textoAncla="Perfil"
                 />
             </div>
 
